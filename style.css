@@ -1,0 +1,201 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'popins',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Poppins';
+    color: #00FFCA;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ACB1D6;
+    z-index: 1;
+    border-bottom: 1px solid #00ffca;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    color: #00FFCA;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #2A2F4F;
+}
+
+.justify{
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #00FFCA;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.Aplikasi-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Aplikasi-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Aplikasi-tutor img {
+   width: 80%;
+   border-radius: 50%; 
+}
+
+.Aplikasi-tutor p {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #00FFCA;
+}
+
+.Testimony-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Testimony-bukti {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.Testimony-bukti img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#About use {
+    background: #00FFCA;
+    padding: 50px 0px 50px 0px; 
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-selection {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #00FFCA;
+    width: 100%;
+    line-height: 50px;
+}
+
+h4{
+    text-align: justify;
+    font-family: 'comic sans ms';
+    color: black;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #E74646;
+    width: 100%;
+    line-height: 50px;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #6DA9E4;
+    width: 100%;
+    line-height: 50px;
+}
+
+
